@@ -3,13 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "smoke:java:1.8": "node ./run-java-smoke.mjs 1.8.8",
-    "smoke:java:1.21": "node ./run-java-smoke.mjs 1.21.4",
-    "smoke:java:1.8:online": "node ./run-java-online-smoke.mjs 1.8.8",
-    "smoke:java:1.21:online": "node ./run-java-online-smoke.mjs 1.21.4",
-    "smoke:bedrock": "node ./run-bedrock-smoke.mjs",
-    "smoke:bedrock:online": "node ./run-bedrock-online-smoke.mjs",
-    "smoke:all": "node ./run-all-smoke.mjs"
+    "smoke:java:1.8": "node ./minecraft-smoke-bot-scripts/run-java-smoke.mjs 1.8.8",
+    "smoke:java:1.21": "node ./minecraft-smoke-bot-scripts/run-java-smoke.mjs 1.21.4",
+    "smoke:java:1.8:online": "node ./minecraft-smoke-bot-scripts/run-java-online-smoke.mjs 1.8.8",
+    "smoke:java:1.21:online": "node ./minecraft-smoke-bot-scripts/run-java-online-smoke.mjs 1.21.4",
+    "smoke:bedrock": "node ./minecraft-smoke-bot-scripts/run-bedrock-smoke.mjs",
+    "smoke:bedrock:online": "node ./minecraft-smoke-bot-scripts/run-bedrock-online-smoke.mjs",
+    "smoke:all": "node ./minecraft-smoke-bot-scripts/run-all-smoke.mjs"
   },
   "dependencies": {
     "bedrock-protocol": "^3.48.0",
